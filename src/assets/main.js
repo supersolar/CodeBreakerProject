@@ -7,6 +7,6 @@ function guess() {
 }
 
 //implement new functions here
-var answer = function setHiddenFields() {
-  Math.floor(Math.random(0,9999));
+function setHiddenFields() {
+  var answer = Math.floor(Math.random(0,9999));
 }
